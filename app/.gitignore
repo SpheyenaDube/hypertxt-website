@@ -1,0 +1,11 @@
+*token.json*
+*credentials.json*" --new-str "# Environment files (comprehensive coverage)
+.env
+.env.local
+.env.development
+.env.production
+*.env
+!.env.example
+
+*token.json*
+*credentials.json*"
