@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { GitBranch, Link, X, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -32,21 +31,21 @@ const Footer = () => {
                 className="w-10 h-10 bg-muted hover:bg-blue-600/10 rounded-full flex items-center justify-center transition-colors group"
                 aria-label="GitHub"
               >
-                <Github className="w-5 h-5 text-muted-foreground group-hover:text-blue-600" />
+                <GitBranch className="w-5 h-5 text-muted-foreground group-hover:text-blue-600" />
               </a>
               <a
                 href="#"
                 className="w-10 h-10 bg-muted hover:bg-blue-600/10 rounded-full flex items-center justify-center transition-colors group"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-blue-600" />
+                <Link className="w-5 h-5 text-muted-foreground group-hover:text-blue-600" />
               </a>
               <a
                 href="#"
                 className="w-10 h-10 bg-muted hover:bg-blue-600/10 rounded-full flex items-center justify-center transition-colors group"
                 aria-label="Twitter"
               >
-                <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-blue-600" />
+                <X className="w-5 h-5 text-muted-foreground group-hover:text-blue-600" />
               </a>
               <a
                 href="#"
