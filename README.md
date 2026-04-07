@@ -21,11 +21,11 @@ A modern, responsive website showcasing professional web development services fo
 
 ```
 hypertxt/
-├── frontend/                 # React frontend application
+├── frontend/                
 │   ├── public/              # Static assets
 │   ├── src/
-│   │   ├── components/      # React components
-│   │   │   ├── ui/         # Manually created UI components (card, button, badge)
+│   │   ├── components/      
+│   │   │   ├── ui/          # Manually created UI components (card, button, badge)
 │   │   │   ├── Navbar.jsx
 │   │   │   ├── Hero.jsx
 │   │   │   ├── Services.jsx
@@ -38,7 +38,7 @@ hypertxt/
 │   │   │   ├── LogoShowcase.jsx
 │   │   │   └── ThemeProvider.jsx
 │   │   ├── data/
-│   │   │   └── mock.js      # Mock data for development
+│   │   │   └── mock.js        # Mock data for development
 │   │   ├── hooks/
 │   │   │   └── use-toast.js
 │   │   ├── App.js
@@ -51,13 +51,13 @@ hypertxt/
 │   └── .env.example
 │
 ├── backend/                  # FastAPI backend application
-│   ├── server.py            # Main FastAPI application
-│   ├── requirements.txt     # Python dependencies
+│   ├── server.py           
+│   ├── requirements.txt      # Python dependencies
 │   └── .env.example
 │
 ├── memory/                   # Project documentation
-│   ├── PRD.md               # Product Requirements Document
-│   └── LOGO_OPTIONS.md      # Logo variations guide
+│   ├── PRD.md               
+│   └── LOGO_OPTIONS.md      
 │
 ├── .gitignore
 └── README.md
@@ -385,7 +385,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, email hello@yourwebagency.com or visit our website.
+For support, email info@hypertxt.co.za or visit our website.
 
 ## 🗺️ Roadmap
 
