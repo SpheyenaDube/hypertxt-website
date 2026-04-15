@@ -30,8 +30,9 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold text-primary">
-            WebCraft<span className="text-blue-600">Pro</span>
+          <div className="text-2xl font-bold">
+            <span className="text-foreground">hyper</span>
+            <span className="text-blue-600">txt</span>
           </div>
 
           {/* Desktop Navigation */}

@@ -8,8 +8,22 @@ import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import LogoShowcase from "./components/LogoShowcase";
 
 function App() {
+  // Check if we're on the logo showcase route
+  const showLogoShowcase = window.location.pathname === '/logos' || window.location.hash === '#logos';
+
+  if (showLogoShowcase) {
+    return (
+      <ThemeProvider>
+        <div className="App min-h-screen bg-background">
+          <LogoShowcase />
+        </div>
+      </ThemeProvider>
+    );
+  }
+
   return (
     <ThemeProvider>
       <div className="App min-h-screen bg-background">

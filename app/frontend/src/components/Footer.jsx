@@ -18,8 +18,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold text-primary">
-              WebCraft<span className="text-blue-600">Pro</span>
+            <div className="text-2xl font-bold">
+              <span className="text-foreground">hyper</span>
+              <span className="text-blue-600">txt</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Building exceptional web experiences for businesses worldwide.
@@ -127,7 +128,7 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} WebCraftPro. All rights reserved.
+              © {currentYear} hypertxt. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-sm text-muted-foreground hover:text-blue-600 transition-colors">
